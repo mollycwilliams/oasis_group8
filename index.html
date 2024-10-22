@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Binge Boston</title>
+        <link rel="stylesheet" href="src/index.css">
+    </head>
+    <body>
+        <div id="root"></div>
+        <nav id="desktop-nav">
+            <div class="title">
+                <h1>Binge Boston</h1>
+            </div>
+            <div class="swipe-screen-container"></div>
+
+            <div class="list-button-container">
+                <button class="generate-list" onclick="generateList()">
+                    <p>Generate List</p>
+                </button>
+                <button class="view-meals" onclick="viewMeals()">
+                    <p>View Meals</p>
+                </button>
+                <button class="reset-list" onclick="resetList()">
+                    <p>Reset List</p>
+                </button>
+            </div>
+
+            <div class="image-display-container">
+                <img id="" src="" alt="" />
+            </div>
+
+            <div class="buttons-container">
+                <button class="like">
+                    <img src="./src/assets/like.png" alt="like">
+                </button>
+                <button class="dislike">
+                    <img src="./src/assets/x.png" alt="dislike">
+                </button>
+            </div>
+        </nav>
+        <script src="script.js"></script>
+    </body>
+</html>

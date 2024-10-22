@@ -14,6 +14,10 @@ html {
     scroll-behavior: smooth;
 }
 
+h1 {
+    padding: 5px;
+}
+
 p {
     font-family: "Poppins", sans-serif;
     color: rgb(2, 2, 2);
@@ -33,7 +37,7 @@ nav, .title {
 .buttons-container {
     display: flex;
     gap: 10px;
-    margin-bottom: 5px;
+    margin: 5px;
 }
 
 button {
@@ -43,12 +47,12 @@ button {
 }
 
 button img {
-    width: 30px;  
-    height: 30px;
+    width: 40px;  
+    height: 40px;
 }
 
 .list-button-container {
-    margin-top: 5x; 
+    margin: 5x; 
     display: flex;
     justify-content: center;
     gap: 15px;  /* Add space between internal elements */
@@ -63,18 +67,20 @@ button img {
     color: white;
 }
 
-.generate-list:hover, .view-recipes:hover, .reset-list:hover {
+.generate-list:hover, .view-meals:hover, .reset-list:hover {
     background-color: #2f2c30;
     transition: filter 0.3s ease;
 }
 
 .image-display-container {
-    width: 100%;
+    width: 75vh;
+    height: 75vh;
     flex-grow: 1; 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin: 20px;
+    border: 2px solid white;
 }
 
 .image-display-container img {

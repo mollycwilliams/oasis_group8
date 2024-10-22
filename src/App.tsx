@@ -14,7 +14,7 @@ function App() {
           console.log(response.meals[0].strMeal);
     } 
     else {
-        console.log("error")
+        console.log("error");
     }
   };
 
